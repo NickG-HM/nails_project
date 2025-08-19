@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="STICKLS - Premium press-on nails that blend luxury with accessibility. Reusable, eco-friendly nail designs for instant self-expression.">
+    <title>STICKLS - Nail Your Look. Instantly.</title>
+    
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    
+    <!-- Schema markup for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "STICKLS",
+        "description": "Premium press-on nails brand",
+        "url": "https://stickls.com",
+        "logo": "https://stickls.com/assets/logo.svg"
+    }
+    </script>
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <!-- Top Navigation -->
+    <header class="header" role="banner">
+        <nav class="nav-container" role="navigation" aria-label="Main navigation">
+            <div class="nav-wrapper">
+                <!-- Logo -->
+                <div class="logo-container">
+                    <a href="/" aria-label="STICKLS Home">
+                        <img src="assets/logo.svg" alt="STICKLS" class="logo">
+                    </a>
+                </div>
+                
+                <!-- Main Navigation -->
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list" role="menubar">
+                        <li class="nav-item" role="none">
+                            <a href="/collections" class="nav-link" role="menuitem" aria-haspopup="true">
+                                Collections
+                                <span class="nav-arrow" aria-hidden="true">↓</span>
+                            </a>
+                            <div class="mega-menu" role="menu">
+                                <div class="mega-menu-content">
+                                    <div class="menu-category">
+                                        <h3>By Style</h3>
+                                        <ul>
+                                            <li><a href="/collections/classic">Classic</a></li>
+                                            <li><a href="/collections/trend">Trending</a></li>
+                                            <li><a href="/collections/occasion">Special Occasion</a></li>
+                                            <li><a href="/collections/seasonal">Seasonal</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-category">
+                                        <h3>By Shape</h3>
+                                        <ul>
+                                            <li><a href="/collections/almond">Almond</a></li>
+                                            <li><a href="/collections/square">Square</a></li>
+                                            <li><a href="/collections/oval">Oval</a></li>
+                                            <li><a href="/collections/coffin">Coffin</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-visual">
+                                        <img src="assets/menu-preview.jpg" alt="Featured collection preview" loading="lazy">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item" role="none">
+                            <a href="/virtual-try-on" class="nav-link" role="menuitem">Virtual Try-On</a>
+                        </li>
+                        <li class="nav-item" role="none">
+                            <a href="/size-guide" class="nav-link" role="menuitem">Size Guide</a>
+                        </li>
+                        <li class="nav-item" role="none">
+                            <a href="/nail-care" class="nav-link" role="menuitem">Nail Care Hub</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Search and Actions -->
+                <div class="nav-actions">
+                    <div class="search-container">
+                        <input type="search" placeholder="Search for nail designs..." class="search-input" aria-label="Search products">
+                        <button class="search-btn" aria-label="Search">
+                            <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.35-4.35"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <a href="/cart" class="cart-link" aria-label="Shopping cart">
+                        <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                        <span class="cart-count">0</span>
+                    </a>
+                    <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-heading">
+            <div class="hero-content">
+                <div class="hero-media">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="assets/hero-mobile.jpg">
+                        <img src="assets/hero-desktop.jpg" alt="Beautiful hands wearing STICKLS press-on nails in elegant poses" class="hero-image" loading="eager">
+                    </picture>
+                    <div class="hero-video-overlay">
+                        <video autoplay muted loop playsinline aria-hidden="true">
+                            <source src="assets/hero-video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <h1 id="hero-heading" class="hero-title">Nail Your Look. Instantly.</h1>
+                    <p class="hero-subtitle">Premium press-on nails that blend luxury with accessibility. Express yourself beautifully, sustainably.</p>
+                    <div class="hero-actions">
+                        <a href="/collections/new-arrivals" class="btn btn-primary">Shop New Arrivals</a>
+                        <a href="/virtual-try-on" class="btn btn-secondary">Try On in AR</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Collections Section -->
+        <section class="collections" aria-labelledby="collections-heading">
+            <div class="container">
+                <h2 id="collections-heading" class="section-title">Explore Our Collections</h2>
+                <div class="collections-grid">
+                    <article class="collection-card" data-aos="fade-up">
+                        <div class="collection-image">
+                            <img src="assets/collection-classic.jpg" alt="Classic nail designs" loading="lazy">
+                            <div class="collection-overlay">
+                                <h3>Classic</h3>
+                                <p>Timeless elegance for every day</p>
+                                <a href="/collections/classic" class="btn btn-outline">Shop Classic</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="collection-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="collection-image">
+                            <img src="assets/collection-trend.jpg" alt="Trending nail designs" loading="lazy">
+                            <div class="collection-overlay">
+                                <h3>Trending</h3>
+                                <p>Stay ahead with latest styles</p>
+                                <a href="/collections/trend" class="btn btn-outline">Shop Trending</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="collection-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="collection-image">
+                            <img src="assets/collection-occasion.jpg" alt="Special occasion nail designs" loading="lazy">
+                            <div class="collection-overlay">
+                                <h3>Special Occasion</h3>
+                                <p>Make every moment memorable</p>
+                                <a href="/collections/occasion" class="btn btn-outline">Shop Occasion</a>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="collection-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="collection-image">
+                            <img src="assets/collection-seasonal.jpg" alt="Seasonal nail designs" loading="lazy">
+                            <div class="collection-overlay">
+                                <h3>Seasonal</h3>
+                                <p>Celebrate every season in style</p>
+                                <a href="/collections/seasonal" class="btn btn-outline">Shop Seasonal</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="how-it-works" aria-labelledby="how-it-works-heading">
+            <div class="container">
+                <h2 id="how-it-works-heading" class="section-title">How It Works</h2>
+                <div class="steps-container">
+                    <div class="step" data-aos="fade-up">
+                        <div class="step-icon">
+                            <img src="assets/icon-measure.svg" alt="" aria-hidden="true">
+                        </div>
+                        <h3>1. Find Your Size</h3>
+                        <p>Use our interactive size guide to find your perfect fit across all nail shapes.</p>
+                    </div>
+                    <div class="step" data-aos="fade-up" data-aos-delay="100">
+                        <div class="step-icon">
+                            <img src="assets/icon-apply.svg" alt="" aria-hidden="true">
+                        </div>
+                        <h3>2. Apply & Style</h3>
+                        <p>Easy 5-minute application with included adhesive tabs or glue for longer wear.</p>
+                    </div>
+                    <div class="step" data-aos="fade-up" data-aos-delay="200">
+                        <div class="step-icon">
+                            <img src="assets/icon-reuse.svg" alt="" aria-hidden="true">
+                        </div>
+                        <h3>3. Remove & Reuse</h3>
+                        <p>Gently remove and store for future use. Each set can be worn multiple times.</p>
+                    </div>
+                </div>
+                <div class="demo-video">
+                    <button class="play-button" aria-label="Play application tutorial video">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M8 5v14l11-7z"/>
+                        </svg>
+                    </button>
+                    <img src="assets/tutorial-preview.jpg" alt="Nail application tutorial preview" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Gallery -->
+        <section class="customer-gallery" aria-labelledby="gallery-heading">
+            <div class="container">
+                <h2 id="gallery-heading" class="section-title">Real Customers, Real Style</h2>
+                <p class="section-subtitle">See how our community rocks STICKLS</p>
+                <div class="gallery-grid" id="customer-gallery">
+                    <!-- Customer photos will be dynamically loaded -->
+                </div>
+                <div class="gallery-actions">
+                    <a href="/customer-gallery" class="btn btn-outline">View More</a>
+                    <a href="#" class="btn btn-secondary" id="share-your-look">Share Your Look</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sustainability Section -->
+        <section class="sustainability" aria-labelledby="sustainability-heading">
+            <div class="container">
+                <div class="sustainability-content">
+                    <div class="sustainability-text">
+                        <h2 id="sustainability-heading">Better for You & Earth</h2>
+                        <div class="sustainability-features">
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <img src="assets/icon-reusable.svg" alt="" aria-hidden="true">
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Reusable Design</h3>
+                                    <p>Each set can be worn 10+ times with proper care</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <img src="assets/icon-eco.svg" alt="" aria-hidden="true">
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Eco-Friendly Materials</h3>
+                                    <p>Made from sustainable, non-toxic materials</p>
+                                </div>
+                            </div>
+                            <div class="feature">
+                                <div class="feature-icon">
+                                    <img src="assets/icon-packaging.svg" alt="" aria-hidden="true">
+                                </div>
+                                <div class="feature-content">
+                                    <h3>Minimal Packaging</h3>
+                                    <p>Recyclable packaging with zero plastic waste</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sustainability-visual">
+                        <img src="assets/sustainability-visual.jpg" alt="Eco-friendly STICKLS packaging and materials" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section class="reviews" aria-labelledby="reviews-heading">
+            <div class="container">
+                <h2 id="reviews-heading" class="section-title">What Our Customers Say</h2>
+                <div class="reviews-carousel" id="reviews-carousel">
+                    <!-- Reviews will be dynamically loaded -->
+                </div>
+                <div class="reviews-indicators" aria-label="Review navigation">
+                    <!-- Indicators will be dynamically generated -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter" aria-labelledby="newsletter-heading">
+            <div class="container">
+                <div class="newsletter-content">
+                    <div class="newsletter-text">
+                        <h2 id="newsletter-heading">Stay In The Loop</h2>
+                        <p>Get exclusive access to new collections, nail care tips, and special offers.</p>
+                    </div>
+                    <form class="newsletter-form" id="newsletter-form" novalidate>
+                        <div class="form-group">
+                            <label for="email" class="visually-hidden">Email address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required aria-describedby="email-error">
+                            <button type="submit" class="btn btn-primary">
+                                Subscribe
+                                <span class="btn-loading" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                        <div id="email-error" class="error-message" role="alert" aria-live="polite"></div>
+                        <p class="newsletter-privacy">We respect your privacy. Unsubscribe anytime.</p>
+                        <div class="newsletter-offer">
+                            <span class="offer-badge">Get 10% off your first order!</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/logo.svg" alt="STICKLS">
+                    </div>
+                    <p class="footer-description">Premium press-on nails for instant self-expression. Beautiful, sustainable, accessible.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Follow us on Instagram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Follow us on TikTok">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="Follow us on Pinterest">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.746-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001.017.001z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="/collections/new-arrivals">New Arrivals</a></li>
+                        <li><a href="/collections/bestsellers">Best Sellers</a></li>
+                        <li><a href="/collections/classic">Classic</a></li>
+                        <li><a href="/collections/trend">Trending</a></li>
+                        <li><a href="/gift-cards">Gift Cards</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="/size-guide">Size Guide</a></li>
+                        <li><a href="/nail-care">Nail Care Hub</a></li>
+                        <li><a href="/shipping">Shipping Info</a></li>
+                        <li><a href="/returns">Returns & Exchanges</a></li>
+                        <li><a href="/contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="/about">About STICKLS</a></li>
+                        <li><a href="/sustainability">Sustainability</a></li>
+                        <li><a href="/careers">Careers</a></li>
+                        <li><a href="/press">Press</a></li>
+                        <li><a href="/affiliate">Become an Affiliate</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>&copy; 2024 STICKLS. All rights reserved.</p>
+                    <div class="legal-links">
+                        <a href="/privacy">Privacy Policy</a>
+                        <a href="/terms">Terms of Service</a>
+                        <a href="/accessibility">Accessibility</a>
+                    </div>
+                </div>
+                <div class="footer-payment">
+                    <span>We accept:</span>
+                    <div class="payment-icons">
+                        <img src="assets/payment-visa.svg" alt="Visa" loading="lazy">
+                        <img src="assets/payment-mastercard.svg" alt="Mastercard" loading="lazy">
+                        <img src="assets/payment-amex.svg" alt="American Express" loading="lazy">
+                        <img src="assets/payment-paypal.svg" alt="PayPal" loading="lazy">
+                        <img src="assets/payment-apple.svg" alt="Apple Pay" loading="lazy">
+                        <img src="assets/payment-google.svg" alt="Google Pay" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Instagram Feed Widget -->
+    <div class="instagram-feed" aria-label="Recent Instagram posts">
+        <div class="container">
+            <h3>Follow @stickls</h3>
+            <div class="instagram-grid" id="instagram-feed">
+                <!-- Instagram posts will be dynamically loaded -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/components.js"></script>
+    <script src="scripts/analytics.js"></script>
+</body>
+</html> 
