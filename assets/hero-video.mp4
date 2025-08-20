@@ -1,1 +1,18 @@
- 
+# STICKLS Hero Video Placeholder
+# 
+# This file represents where the hero video would be placed.
+# In production, replace this with an actual MP4 video showing:
+# - Beautiful hands applying STICKLS press-on nails
+# - Close-up shots of the rose gold finish
+# - Quick application process (5-10 seconds loop)
+# - Professional lighting showcasing the premium quality
+#
+# Recommended specs:
+# - Duration: 5-10 seconds (looping)
+# - Resolution: 1920x1080 or higher
+# - Format: MP4 (H.264 codec)
+# - File size: < 5MB for web optimization
+# - No audio required (autoplay restrictions)
+#
+# For now, the CSS will handle the video overlay gracefully
+# if this file is not found. 
