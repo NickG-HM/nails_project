@@ -36,7 +36,7 @@ A modern, elegant single-page landing page for STICKLS, a premium false nails (p
 nails_project/
 ├── index.html              # Single-page landing page
 ├── assets/                 # Visual assets (16 total)
-│   ├── logo.svg           # Brand logo (3D version)
+│   ├── logo.png           # Brand logo (final version from Nastya)
 │   ├── favicon.svg        # Site favicon
 │   ├── hero-desktop.svg   # Hero section image
 │   ├── collection-*.svg   # Product collection images (3)
